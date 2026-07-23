@@ -2,8 +2,8 @@ pair_id,person_image,garment_image,source,use,edge_case_notes
 pair_01,person/person_01.png,garment/garment_01.jpg,provided,official test pair (Q3-Q5),clean baseline pair
 pair_02,person/person_02.png,garment/garment_02.jpg,provided,official test pair (Q3-Q5),person has hair over left shoulder (Q2 edge case)
 pair_03,person/person_03.png,garment/garment_03.jpg,provided,official test pair (Q3-Q5),person has hair over left shoulder; garment is a strappy/sleeveless top (Q2 edge cases)
-pair_04,person/pair04_person.jpg,garment/pair04_garment.jpg,candidate,candidate-sourced pair (Q3-Q5),
-pair_05,person/pair05_person.jpg,garment/pair05_garment.jpg,candidate,candidate-sourced pair (Q3-Q5),
+pair_04,person/pair04_person.jpg,garment/pair04_garment.jpg,candidate,candidate-sourced pair (Q3-Q5),"person wears long-sleeve sweater, target garment is short-sleeve (sleeve removal case); hands behind back"
+pair_05,person/pair05_person.jpg,garment/pair05_garment.jpg,candidate,candidate-sourced pair (Q3-Q5),"person wears long-sleeve open shirt, target garment is short-sleeve (sleeve removal case)"
 person_04,person/person_04.png,,provided,additional Q1/Q2 test image,
 person_05,person/person_05.png,,provided,additional Q1/Q2 test image,
 garment_04,,garment/garment_04.jpg,provided,additional Q1/Q2 test image,
