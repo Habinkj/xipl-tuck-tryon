@@ -1,0 +1,15 @@
+{
+  "person_image": "person_crossed_arms.jpg",
+  "garment_image": null,
+  "garment_attributes": null,
+  "person_attributes": {
+    "pose_category": "front-facing",
+    "upper_body_visible": true,
+    "lower_body_visible": true
+  },
+  "model_used": {
+    "garment_vlm": "llava-hf/llava-v1.6-mistral-7b-hf",
+    "pose_keypoints": "yolov8x-pose (Ultralytics, AGPL-3.0)"
+  },
+  "confidence_notes": "pose: shoulder span 0.824999988079071, ear asym 0.12999999523162842 || garment: "
+}

@@ -1,0 +1,21 @@
+{
+  "person_image": "person_04.png",
+  "garment_image": "garment_04.jpg",
+  "garment_attributes": {
+    "type": "t-shirt",
+    "sleeve_length": "short",
+    "neckline": "crew",
+    "primary_color": "black",
+    "pattern": "solid"
+  },
+  "person_attributes": {
+    "pose_category": "front-facing",
+    "upper_body_visible": true,
+    "lower_body_visible": true
+  },
+  "model_used": {
+    "garment_vlm": "llava-hf/llava-v1.6-mistral-7b-hf",
+    "pose_keypoints": "yolov8x-pose (Ultralytics, AGPL-3.0)"
+  },
+  "confidence_notes": "pose: shoulder span 0.6230000257492065, ear asym 0.1599999964237213 || garment: ```json {   \"type\": \"t-shirt\",   \"sleeve_length\": \"short\",   \"neckline\": \"crew\",   \"primary_color\": \"black\",  "
+}

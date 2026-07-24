@@ -1,0 +1,21 @@
+{
+  "person_image": "pair05_person.jpg",
+  "garment_image": "pair05_garment.jpg",
+  "garment_attributes": {
+    "type": "tank-top",
+    "sleeve_length": "sleeveless",
+    "neckline": "crew",
+    "primary_color": "brown",
+    "pattern": "solid"
+  },
+  "person_attributes": {
+    "pose_category": "front-facing",
+    "upper_body_visible": true,
+    "lower_body_visible": true
+  },
+  "model_used": {
+    "garment_vlm": "llava-hf/llava-v1.6-mistral-7b-hf",
+    "pose_keypoints": "yolov8x-pose (Ultralytics, AGPL-3.0)"
+  },
+  "confidence_notes": "pose: shoulder span 0.6330000162124634, ear asym 0.09000000357627869 || garment: ```json {   \"type\": \"tank-top\",   \"sleeve_length\": \"sleeveless\",   \"neckline\": \"round\",   \"primary_color\": \"br"
+}

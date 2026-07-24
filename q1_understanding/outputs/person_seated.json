@@ -1,0 +1,15 @@
+{
+  "person_image": "person_seated.jpg",
+  "garment_image": null,
+  "garment_attributes": null,
+  "person_attributes": {
+    "pose_category": "seated",
+    "upper_body_visible": true,
+    "lower_body_visible": true
+  },
+  "model_used": {
+    "garment_vlm": "llava-hf/llava-v1.6-mistral-7b-hf",
+    "pose_keypoints": "yolov8x-pose (Ultralytics, AGPL-3.0)"
+  },
+  "confidence_notes": "pose: ear asym 0.9100000262260437, knee conf 1.0 (empirical rule) || garment: "
+}
